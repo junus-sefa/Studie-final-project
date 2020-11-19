@@ -45,7 +45,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   justify-content: center;
 }
 .galleri .bilde{
-  flex: 0 0 50%;
+  flex: 0 0 25%;
   padding-top:50px;
 }
 .galleri .bilde p{
@@ -58,7 +58,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   transition: .15s;
 }
 .galleri .bilde img:hover{
-  transform: scale(.9);
+  transform: scale(1.1);
   cursor:cell;
 }
 
