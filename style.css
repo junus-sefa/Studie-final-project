@@ -45,7 +45,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   justify-content: center;
 }
 .galleri .bilde{
-  flex: 0 0 25%;
+  flex: 0 0 50%;
   padding-top:50px;
 }
 .galleri .bilde p{
