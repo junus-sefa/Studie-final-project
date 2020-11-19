@@ -33,7 +33,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     flex:100%!important;
   }
   .galleri .bilde img:hover{
-    transform: scale(1);
+    transform: scale(1)!important;
   }
 }
 
