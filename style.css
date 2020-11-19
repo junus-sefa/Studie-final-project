@@ -71,12 +71,6 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 }
 
 .logonav{
-  width: 100%;
-  height: 18vh;
-}
-.fixed-header{
-  position: fixed;
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -85,6 +79,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 }
 .topnav{
   display: flex;
+  justify-content: center;
   list-style: none;
   flex-wrap: wrap;
 }
@@ -103,23 +98,42 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #c7f6c9;
 }
 .problem-container{
-  background-color: #c7f6c9;
   padding: 5vh;
 }
 .prob-header{
   margin: auto;
   text-align: center;
-  width: 60%;
+  width: 75%;
   font-size: 2em;
 }
 .prob-txt{
-  width: 60%;
+  width: 75%;
   margin: auto;
-<<<<<<< HEAD
   width: 50%;
   font-size: 1.8em;
+}
+@media only screen and (max-width: 1000px){
+  .big{
+    font-size: 1.6em;
+  }
+  .problem-container{
+    padding: 3vh 2vw;
+  }
+  .prob-header{
+    font-size: 1.5em;
+    width: 90%;
+  }
+  .prob-txt{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .banner img{
+    width: 100%;
+  }
 }
 
 /*Thanasis*/
@@ -268,23 +282,4 @@ form{
   font-size: 1.4em;
 }
 
-@media only screen and (max-width: 1000px){
-  .big{
-    font-size: 1.6em;
-  }
-  .problem-container{
-    padding: 3vh 2vw;
-  }
-  .prob-header{
-    font-size: 1.5em;
-    width: 90%;
-  }
-  .prob-txt{
-    text-align: center;
-    font-size: 1.2em;
-    width: 100%;
-  }
-  .banner img{
-    width: 100%;
-  }
-}
+
