@@ -32,6 +32,9 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   .galleri .bilde{
     flex:100%!important;
   }
+  .galleri .bilde img:hover{
+    transform: scale(1);
+  }
 }
 
 .boks{
@@ -58,7 +61,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   transition: .15s;
 }
 .galleri .bilde img:hover{
-  transform: scale(2);
+  transform: scale(1.6);
   cursor:cell;
 }
 
