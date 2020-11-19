@@ -315,10 +315,10 @@ form{
     margin-left: 100px;
     margin-top: 33px;
 }
-a img:hover{ 
-    position: relative; 
+a img:hover{
+    position: relative;
     bottom: 5px;
-} 
+}
 #footer{
     margin-top: 80px;
     background-color: #c6f5c7;
@@ -331,7 +331,7 @@ a img:hover{
 }
 #mail{
     margin-left: 400px;
-    margin-bottom: 
+    margin-bottom:
 }
 #mail_text{
     font-size: 22px;
@@ -359,12 +359,12 @@ a img:hover{
     position: relative;
     bottom: 10px;
 }
-#instagram:hover{ 
+#instagram:hover{
     transform: translateY(-5px);
-} 
-#facebook:hover{ 
+}
+#facebook:hover{
     transform: translateY(-5px);
-} 
+}
 #line{
     border-top: 2px solid black;
     width: 90%;
@@ -375,30 +375,30 @@ a img:hover{
     padding-bottom: 15px;
 }
 
-
+/*Marko Spyros*/
 #community{
   width: 30%;
   }
-  
+
   #quote{
   margin-left: 170px;
   margin-top: 170px;
   }
-  
+
   .relasjonen_til_losningen{
     border: 1px solid;
     position: relative;
     display: flex;
     margin-top: 100px;
     background-color: #c6f5c7;
-  
+
   }
-  
+
   @media only screen and (max-width: 1143px){
     .relasjonen_til_losningen{
       display: inline-block;
     }
-  
+
     #quote{
     float: none;
     margin-top: 150px;
@@ -407,7 +407,7 @@ a img:hover{
     display: block;
     width: 70%;
     }
-  
+
     #community{
     float: none;
     margin-top: 50px;
