@@ -282,4 +282,93 @@ form{
   font-size: 1.4em;
 }
 
+/* Mostafa Hadad */
+* {
+  box-sizing: border-box;
+}
+#download{
+    margin-top: 100px;
+}
+#app_headline{
+    text-align: center;
+}
+.row_download{
+    display: flex;
+}
+.column1_download{
+    flex: 50%;
+
+}
+.column2_download{
+    flex: 50%;
+}
+#app_store{
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+#google_play{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 33px;
+}
+a img:hover{ 
+    position: relative; 
+    bottom: 5px;
+} 
+#footer{
+    margin-top: 80px;
+    background-color: #c6f5c7;
+    color: black;
+}
+#footer_headline{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#mail{
+    margin-left: 400px;
+    margin-bottom: 
+}
+#mail_text{
+    font-size: 22px;
+    margin-left: 20px;
+}
+#row_footer{
+    display: flex;
+}
+#coumn1_footer{
+
+}
+#column2_footer{
+
+}
+#column3_footer{
+
+}
+#instagram{
+    margin-left: 30px;
+    position: relative;
+    bottom: 10px;
+}
+#facebook{
+    margin-left: 80px;
+    position: relative;
+    bottom: 10px;
+}
+#instagram:hover{ 
+    transform: translateY(-5px);
+} 
+#facebook:hover{ 
+    transform: translateY(-5px);
+} 
+#line{
+    border-top: 2px solid black;
+    width: 90%;
+    margin-top: 50px;
+}
+#footer_text{
+    text-align: center;
+    padding-bottom: 15px;
+}
 
