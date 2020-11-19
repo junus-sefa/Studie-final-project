@@ -123,6 +123,9 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 }
 
 /*Thanasis*/
+body{
+  text-align: center;
+}
 /*----------Avstemning---------------*/
 .grid-container {
   display: grid;
