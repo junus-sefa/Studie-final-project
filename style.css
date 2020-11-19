@@ -14,7 +14,7 @@ html,body{
 }
 
 a{text-decoration: none;color:#303133;transition: .15s;}
-a:hover{color:red;}
+a:hover{color: darkblue; text-decoration: underline;}
 h1{font-size: 3em;}
 h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .bold{font-weight: bold;}
@@ -60,4 +60,83 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .galleri .bilde img:hover{
   transform: scale(1.1);
   cursor:cell;
+}
+
+
+/* Sigurd Skyrud CSS */
+
+
+.big{
+  font-size: 1.9em
+}
+
+.logonav{
+  width: 100%;
+  height: 18vh;
+}
+.fixed-header{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c7f6c9;
+  padding: 3vh 3vw;
+}
+.topnav{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.topnav li{
+  padding: 2vh 2vw;
+  font-size: 1.5em;
+}
+.logo-container{
+  width: 20vw;
+  height: 90%;
+}
+.logo-container img{
+  width: 100%;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.problem-container{
+  background-color: #c7f6c9;
+  padding: 5vh;
+}
+.prob-header{
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  font-size: 2em;
+}
+.prob-txt{
+  width: 60%;
+  margin: auto;
+  font-size: 1.4em;
+}
+
+@media only screen and (max-width: 1000px){
+  .big{
+    font-size: 1.6em;
+  }
+  .problem-container{
+    padding: 3vh 2vw;
+  }
+  .prob-header{
+    font-size: 1.5em;
+    width: 90%;
+  }
+  .prob-txt{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .banner img{
+    width: 100%;
+  }
 }
