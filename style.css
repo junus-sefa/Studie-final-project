@@ -58,7 +58,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   transition: .15s;
 }
 .galleri .bilde img:hover{
-  transform: scale(1.1);
+  transform: scale(.9);
   cursor:cell;
 }
 
