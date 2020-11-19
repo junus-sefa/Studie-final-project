@@ -67,10 +67,16 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 
 
 .big{
-  font-size: 2em
+  font-size: 1.9em
 }
 
 .logonav{
+  width: 100%;
+  height: 18vh;
+}
+.fixed-header{
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -88,22 +94,52 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 }
 .logo-container{
   width: 20vw;
+  height: 90%;
 }
 .logo-container img{
-  height: 100%;
   width: 100%;
 }
 .banner{
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 40vh;
+  justify-content: center; 
 }
 .problem-container{
-  width: 100%;
+  background-color: #c7f6c9;
+  padding: 5vh;
 }
-.problem{
+.prob-header{
   margin: auto;
-  width: 50%;
-  font-size: 1.8em;
+  text-align: center;
+  width: 60%;
+  font-size: 2em;
+}
+.prob-txt{
+  width: 60%;
+  margin: auto;
+  font-size: 1.4em;
+}
+
+@media only screen and (max-width: 1000px){
+  .fixed-header{
+    height: auto;
+  }
+  .big{
+    font-size: 1.6em;
+  }
+  .problem-container{
+    padding: 3vh 2vw;
+  }
+  .prob-header{
+    font-size: 1.5em;
+    width: 90%;
+  }
+  .prob-txt{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .banner img{
+    width: 100%;
+  }
 }
