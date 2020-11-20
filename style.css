@@ -97,6 +97,9 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .logo-container img{
   width: 100%;
 }
+.overlay, .overlay-content, #hamburger{
+  display: none;
+}
 .banner{
   display: flex;
   align-items: center;
@@ -118,6 +121,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   width: 50%;
   font-size: 1.8em;
 }
+
 @media only screen and (max-width: 1000px){
   .big{
     font-size: 1.6em;
@@ -137,6 +141,62 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   .banner img{
     width: 100%;
   }
+
+  /* Hamburger Menu */
+
+  ul li a{
+    display: none;
+  }
+  #hamburger{
+    display: flex;
+    cursor: pointer;
+  }
+  #hamburger img{
+    width: 8vw;
+  }
+  .logonav{
+    overflow: hidden;
+  }
+  .overlay, .overlay-content, #hamburger{
+    display: block;
+  }
+  .overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #c6f5c7;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover, .overlay a:focus{
+    color: darkblue;
+    text-decoration: underline;
+  }
+  .overlay .closebtn{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+  }
+
 }
 
 /*Thanasis*/
@@ -320,6 +380,7 @@ a img:hover{
     bottom: 5px;
 }
 #footer{
+  width: 100%;
     margin-top: 80px;
     background-color: #c6f5c7;
     color: black;
