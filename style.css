@@ -353,12 +353,12 @@ form{
     grid-column: auto;
      grid-row: auto;
      margin-bottom: 5%;
-       line-height: 100px;
+
   }
 
   .item a{
-    font-size: 1.5em;
-
+    font-size: 1.7em;
+    line-height: normal;
   }
 
   .av-btn{
