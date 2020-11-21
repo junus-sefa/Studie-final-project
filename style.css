@@ -376,8 +376,8 @@ form{
     font-size: 3em;
   }
 
-  #info h1{font-size: 1em;}
-  #info h2{font-size: 3em; line-height: normal;}
+  .info h1{font-size: 1em;}
+  .info h2{font-size: 3em; line-height: normal;}
 
   .submit-btn{
     width: 70%;
