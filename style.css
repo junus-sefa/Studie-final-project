@@ -196,7 +196,6 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     right: 35px;
     font-size: 40px;
   }
-
 }
 
 /*Thanasis*/
@@ -245,13 +244,13 @@ body{
 /*----------Avstemning---------------*/
 
 
-h1{
+.info h1{
   font-size: 1em;
   margin: 1vw;
-  color: grey;
+  color: #636363;
 }
 
-h2{
+.info h2{
   line-height: 2vw;
 }
 
