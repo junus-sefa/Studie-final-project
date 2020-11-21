@@ -347,12 +347,17 @@ form{
   .grid-container{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    font-size: 3em;
+
   }
 
-  form {
-    width: 100%;
-    margin: 1.6%;
+  .item{
+    grid-column: auto;
+     grid-row: auto;
+     margin-bottom: 5%;
+  }
+
+  .av-btn{
+     height: 25vw;
   }
 
 /*-----form-----*/
