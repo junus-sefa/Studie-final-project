@@ -341,7 +341,7 @@ form{
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px){
   .grid-container{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -350,12 +350,20 @@ form{
   .item{
     grid-column: auto;
      grid-row: auto;
+     margin-bottom: 2.6%;
   }
 
-  .item a button{
-   height: 30%;
-   margin: 2%
+  .item a{
+    font-size: 2em;
+  }
 
+  .av-btn{
+    height: 100%;
+  }
+
+  form{
+    width: 100%;
+    margin: 1.6%;
   }
 }
 /*Thanasis*/
