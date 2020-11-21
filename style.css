@@ -362,6 +362,7 @@ form{
 
   .av-btn{
     height: 25vw;
+    line-height: normal;
   }
 
   .avstemning h1 {
