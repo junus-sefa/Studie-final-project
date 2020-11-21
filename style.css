@@ -353,6 +353,7 @@ form{
     grid-column: auto;
      grid-row: auto;
      margin-bottom: 5%;
+       line-height: 100px;
   }
 
   .item a{
@@ -362,7 +363,7 @@ form{
 
   .av-btn{
     height: 25vw;
-    line-height: 100px;
+
   }
 
   .avstemning h1 {
