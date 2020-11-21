@@ -588,17 +588,45 @@ a img:hover{
 
   .pictures_title{
     color: black;
+    width: 400px;
+  }
+
+  .pictures_title2{
+    width: 330px;
+    color: black;
   }
 
   .pictures_texts{
     color: #2F2F2F;
     opacity: 90%;
+    width: 400px;
+  }
+
+  .pictures{
+    margin-right: 100px;
   }
 
   #om_oss{
     margin-top: 300px;
     background-color: #c6f5c7;
+    padding: 10px;
 
+  }
+
+  @media only screen and (max-width: 1334px){
+    .pictures{
+      margin-right: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1137px){
+    .row1, .row2{
+      margin-right: 150px;
+      display: flex;
+    }
+    .pictures{
+      margin-left: 80px;
+    }
   }
 
   @media only screen and (max-width: 1013px){
@@ -613,7 +641,60 @@ a img:hover{
     .row1, .row2{
       display: block;
       padding-left: none;
-      padding-right: 150px;
+      padding-right: 120px;
+      margin-left: 160px;
     }
 
-  }
+    .pictures{
+      margin-left: 140px;
+    }
+
+    #om_oss{
+      margin-top: 300px;
+      background-color: #c6f5c7;
+
+
+    }
+    @media only screen and (max-width: 920px){
+      .row1, .row2{
+        display: block;
+        padding-left: none;
+        padding-right: 120px;
+        margin-left: 160px;
+      }
+
+      .pictures{
+        margin-left: 140px;
+      }
+
+      #om_oss{
+        margin-top: 300px;
+        background-color: #c6f5c7;
+
+
+      }
+
+      @media only screen and (max-width: 774px){
+        .row1, .row2{
+          display: block;
+          padding-left: none;
+          padding-right: 120px;
+          margin-left: 50px;
+        }
+      }
+
+      @media only screen and (max-width: 633px){
+        .row1, .row2{
+          display: block;
+          padding-left: none;
+          padding-right: 120px;
+          margin-left: 1px;
+        }
+      }
+
+      @media only screen and (max-width: 500px){
+        .row1, .row2{
+          display: block;
+          padding-left: none;
+        }
+      }
