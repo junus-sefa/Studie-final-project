@@ -342,6 +342,8 @@ form{
 }
 
 @media only screen and (max-width: 1200px){
+
+/*grid*/
   .grid-container{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -365,9 +367,13 @@ form{
     font-size: 3em;
   }
 
-  form {
-    width: 100%;
-    margin: 1.6%;
+
+/*-----form-----*/
+  .form label {
+    width: 90%;
+    height: 15vw;
+    margin: 2.6%;
+    font-size: 3em;
   }
 }
 /*Thanasis*/
