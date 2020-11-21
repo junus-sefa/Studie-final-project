@@ -358,12 +358,11 @@ form{
 
   .item a{
     font-size: 1.7em;
-    line-height: normal;
   }
 
   .av-btn{
     height: 25vw;
-
+    line-height: revert;
   }
 
   .avstemning h1 {
