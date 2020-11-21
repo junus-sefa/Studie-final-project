@@ -384,6 +384,10 @@ form{
     height: 10vw;
   }
 
+  /*---thanks---*/
+  .thanks h1{font-size: 4em; margin-top: 11%; margin-bottom: 11%;}
+  .thanks a{font-size: 3em;}
+
 }
 /*Thanasis*/
 
