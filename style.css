@@ -357,6 +357,7 @@ form{
 
   .item a{
     font-size: 2em;
+    line-height: normal;
   }
 
   .av-btn{
