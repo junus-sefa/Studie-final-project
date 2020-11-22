@@ -155,7 +155,11 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     width: 8vw;
   }
   .logonav{
-    overflow: hidden;
+    width: 100%;
+    position: fixed;
+  }
+  .banner{
+    padding-top: 15vh;
   }
   .overlay, .overlay-content, #hamburger{
     display: block;
