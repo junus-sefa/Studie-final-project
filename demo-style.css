@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500;900&display=swap');
 
+body{
+  text-align: center;
+  font-family: Montserrat;
+  margin: 0;
+}
+
 .logonav{
   display: flex;
   justify-content: space-around;
@@ -10,12 +16,15 @@
 .topnav{
   display: flex;
   justify-content: center;
-  list-style: none;
   flex-wrap: wrap;
+  list-style: none;
 }
-.topnav li{
+
+.topnav li a{
   padding: 2vh 2vw;
   font-size: 1.5em;
+  color: black;
+  text-decoration: none;
 }
 .logo-container{
   width: 15vw;
@@ -27,9 +36,6 @@
 
 
 /*Thanasis*/
-body{
-  text-align: center;
-}
 /*----------Avstemning---------------*/
 .grid-container {
   display: grid;
@@ -41,7 +47,7 @@ body{
 }
 
 .av-btn{
-  font-family: Roboto;
+  font-family: Montserrat;
   color: black;
   padding-left: 30px;
   padding-right: 30px;
@@ -142,6 +148,7 @@ form{
 
 .form label:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .form input[type="radio"]:checked + label {
@@ -168,6 +175,7 @@ form{
 
 .submit-btn:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .info h1{
