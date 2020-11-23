@@ -14,7 +14,8 @@ html,body{
 }
 
 a{text-decoration: none;color:#303133;transition: .15s;}
-a:hover{color: darkblue; text-decoration: underline;}
+a:hover{
+  opacity: .5; text-decoration: none;}
 h1{font-size: 3em;}
 h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .bold{font-weight: bold;}
@@ -61,7 +62,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   transition: .15s;
 }
 .galleri .bilde img:hover{
-  transform: scale(1.6);
+  transform: scale(1.4);
   cursor:cell;
 }
 
@@ -91,7 +92,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   font-size: 1.5em;
 }
 .logo-container{
-  width: 20vw;
+  width: 15vw;
   height: 90%;
 }
 .logo-container img{
@@ -116,9 +117,8 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   font-size: 2em;
 }
 .prob-txt{
-  width: 75%;
   margin: auto;
-  width: 50%;
+  width: 75%;
   font-size: 1.8em;
 }
 
@@ -239,6 +239,7 @@ body{
 .av-btn:hover{
   background-color: black;
   color: #c6f5c7;
+  cursor:pointer;
 }
 
 .avstemning h1{
@@ -250,9 +251,9 @@ body{
 
 
 h1{
-  font-size: 1em;
+  font-size: 2em;
   margin: 1vw;
-  color: grey;
+  color:#000;
 }
 
 h2{
@@ -660,7 +661,6 @@ a img:hover{
   }
 
   #om_oss{
-    margin-top: 300px;
     background-color: #c6f5c7;
     padding: 10px;
 
@@ -703,7 +703,6 @@ a img:hover{
     }
 
     #om_oss{
-      margin-top: 300px;
       background-color: #c6f5c7;
 
 
@@ -721,7 +720,6 @@ a img:hover{
       }
 
       #om_oss{
-        margin-top: 300px;
         background-color: #c6f5c7;
 
 
