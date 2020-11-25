@@ -91,6 +91,10 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   padding: 2vh 2vw;
   font-size: 1.5em;
 }
+.topnav li a:hover{
+  color: darkblue;
+  text-decoration: underline;
+}
 .logo-container{
   width: 15vw;
   height: 90%;
