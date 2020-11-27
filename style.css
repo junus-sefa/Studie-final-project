@@ -417,7 +417,7 @@ a img:hover{
 /*Marko Spyros*/
 
 
-.container{
+.container_om_oss{
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -434,7 +434,7 @@ a img:hover{
   height: auto;
 }
 
-.pictures{
+.bilder{
   margin: auto;
   display: block;
 }
@@ -460,7 +460,7 @@ a img:hover{
 }
 
 @media screen and (max-width:320px){
-  .pictures{
+  .bilder{
     width: 80px;
   }
 
