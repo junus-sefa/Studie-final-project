@@ -26,6 +26,12 @@ body{
   color: black;
   text-decoration: none;
 }
+
+.topnav li a:hover{
+  text-decoration: underline;
+
+}
+
 .logo-container{
   width: 15vw;
   height: 90%;
@@ -36,6 +42,10 @@ body{
 @media only screen and (max-width: 1000px){
   .logo-container{
     width: 20vh;
+  }
+
+  .topnav li {
+    font-size: 2em;
   }
 }
 

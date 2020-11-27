@@ -251,13 +251,13 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 }
 #app_store{
     width: 50%;
-    margin-left: 200px;
+    margin-left: 250px;
     margin-top: 30px;
 }
 #google_play{
     width: 50%;
     margin-top: 30px;
-    margin-left: -100px;
+    margin-left: 150px;
 }
 a img:hover{
     position: relative;
@@ -385,6 +385,11 @@ a img:hover{
         #facebook{
         margin-left: 125px;
     }
+
+#google_play{
+    margin-left: 100px;
+}
+    
 }
 @media screen and (max-width: 850px) {
     #mail{
@@ -434,7 +439,53 @@ a img:hover{
     #footer{
         height: 500px;
     }
+
+    
 }
+@media screen and (max-width: 700px) {
+    #footer{
+        height: 500px;
+    }
+    #google_play{
+    margin-left: 50px;
+}
+    
+}
+@media screen and (max-width: 600px) {
+    #footer{
+        height: 500px;
+    }
+    #app_store{
+    margin-left: 50px;
+}
+    
+}
+@media screen and (max-width: 500px) {
+    #footer{
+        height: 500px;
+    }
+    #app_store{
+    margin-left: 50px;
+    width: 70%;
+}
+    #google_play{
+        width: 70%;
+        margin-left: 30px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+
+    #app_store{
+        width: 80%;
+    margin-left: 30px;
+}
+        #google_play{
+        width: 80%;
+        margin-left: 10px;
+    }
+}
+
 
 
 /*Marko Spyros*/
