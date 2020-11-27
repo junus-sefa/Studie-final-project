@@ -145,7 +145,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     font-size: 1.6em;
   }
   .logo-container{
-    width: 25vh;
+    width: 20vh;
   }
   .problem-container{
     padding: 3vh 2vw;
@@ -173,14 +173,14 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     cursor: pointer;
   }
   #hamburger img{
-    width: 12vw;
+    width: 6vw;
   }
   .logonav{
     width: 100%;
     position: fixed;
   }
   .banner{
-    padding-top: 15vh;
+    padding-top: 16vh;
   }
   .overlay, .overlay-content, #hamburger{
     display: block;
@@ -222,6 +222,12 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     font-size: 40px;
   }
 
+}
+
+@media only screen and (max-width: 600px){
+  #hamburger img{
+    width: 40px;
+  }
 }
 
 /* Mostafa Hadad */
