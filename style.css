@@ -414,16 +414,17 @@ a img:hover{
     #google_play{
         width: 60%;
     }
+
     #mail{
-        margin-left: 0px;
+        margin-left: 330px;
         margin-top: 0px;
     }
     #facebook{
-        margin-left: 0px;
+        margin-left: 280px;
         margin-top: 40px;
     }
     #footer{
-        height: 480px;
+        height: 500px;
     }
     #footer_text{
         padding-left: 20px;
@@ -434,16 +435,9 @@ a img:hover{
         padding-right: 30px;
     }
     #mail_text{
-        margin-left: 0px;
+        margin-left: 230px;
     }
-}
-@media screen and (max-width: 750px) {
-    #footer{
-        height: 500px;
-    }
-
-    
-}
+}   
 @media screen and (max-width: 700px) {
     #footer{
         height: 500px;
@@ -451,20 +445,36 @@ a img:hover{
     #google_play{
     margin-left: 50px;
 }
-    
+        #mail_text{
+        margin-left: 180px;
+    }
+        #facebook{
+        margin-left: 230px;
+    }
+        #mail{
+        margin-left: 280px;
+    }
 }
 @media screen and (max-width: 600px) {
     #footer{
-        height: 500px;
+        height: 520px;
     }
     #app_store{
     margin-left: 50px;
 }
-    
+               #mail_text{
+        margin-left: 130px;
+    }
+        #facebook{
+        margin-left: 180px;
+    }
+        #mail{
+        margin-left: 230px;
+    } 
 }
 @media screen and (max-width: 500px) {
     #footer{
-        height: 500px;
+        height: 520px;
     }
     #app_store{
     margin-left: 50px;
@@ -474,8 +484,17 @@ a img:hover{
         width: 70%;
         margin-left: 30px;
     }
-    
+        #mail_text{
+        margin-left: 80px;
+    }
+        #facebook{
+        margin-left: 130px;
+    }
+        #mail{
+        margin-left: 180px;
+    } 
 }
+
 @media screen and (max-width: 400px) {
 
     #app_store{
@@ -486,6 +505,27 @@ a img:hover{
         width: 80%;
         margin-left: 10px;
     }
+        #mail_text{
+        margin-left: 30px;
+    }
+        #facebook{
+        margin-left: 80px;
+    }
+        #mail{
+        margin-left: 130px;
+    } 
+}
+@media screen and (max-width: 340px) {
+
+        #mail_text{
+        margin-left: 10px;
+    }
+        #facebook{
+        margin-left: 60px;
+    }
+        #mail{
+        margin-left: 110px;
+    } 
 }
 
 
