@@ -29,7 +29,6 @@ body{
 
 .topnav li a:hover{
   text-decoration: underline;
-
 }
 
 .logo-container{
@@ -88,6 +87,7 @@ body{
 .av-btn:active{
   background-color: black;
   color: #c6f5c7;
+  border: 0;
 
 }
 
