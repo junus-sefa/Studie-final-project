@@ -143,7 +143,9 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   width: 75%;
   font-size: 1.8em;
 }
-
+@media only screen and (max-width: 800px){
+  
+}
 @media only screen and (max-width: 1000px){
   .big{
     font-size: 1.6em;
