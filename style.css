@@ -27,8 +27,14 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   }
 }
 @media screen and (max-width: 800px) {
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size:1.2em;
+  }
   .boks{
-    padding: 90px 50px!important;
+    padding: 90px 10px!important;
     text-align: center!important;
   }
   .galleri{
