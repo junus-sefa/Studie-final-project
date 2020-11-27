@@ -123,7 +123,11 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   background-color: #c7f6c9;
+}
+.banner img{
+  width: 100%;
 }
 .problem-container{
   padding: 5vh;
