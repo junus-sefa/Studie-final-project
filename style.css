@@ -423,8 +423,8 @@ a img:hover{
   flex-direction: row;
   height: auto;
   background: #c6f5c7;
-  justify-content: space-around;
   flex-flow: wrap;
+  justify-content: space-around;
 }
 
 .box{
