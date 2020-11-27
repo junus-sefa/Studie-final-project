@@ -130,6 +130,9 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   .big{
     font-size: 1.6em;
   }
+  .logo-container{
+    width: 25vh;
+  }
   .problem-container{
     padding: 3vh 2vw;
   }
@@ -156,7 +159,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     cursor: pointer;
   }
   #hamburger img{
-    width: 8vw;
+    width: 12vw;
   }
   .logonav{
     width: 100%;
