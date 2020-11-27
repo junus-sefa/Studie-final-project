@@ -66,9 +66,14 @@ body{
 }
 
 .av-btn:hover{
-  background-color: #000000;
-  color: #c6f5c7;
   cursor:pointer;
+  text-decoration: underline;
+}
+
+.av-btn:active{
+  background-color: black;
+  color: #c6f5c7;
+
 }
 
 .avstemning h1{
@@ -203,7 +208,8 @@ form{
   }
 
   .av-btn{
-    height: 25vw;
+    height: auto;
+    padding: 10vw;
     line-height: revert;
   }
 
@@ -215,7 +221,7 @@ form{
 /*-----form-----*/
   .form label {
     width: 90%;
-    height: 15vw;
+    height: auto;
     margin: 2.6%;
     font-size: 3em;
   }
@@ -238,4 +244,5 @@ form{
 img{
   width: 100%;
 }
-/*Thanasis*/
+
+/*Athanasios*/
