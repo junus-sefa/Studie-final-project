@@ -257,6 +257,8 @@ form{
     width: 90%;
     height: auto;
     margin: 2.6%;
+    padding-left: 4vw;
+    padding-right: 4vw;
     padding-top: 7vw;
     padding-bottom: 7vw;
     font-size: 3em;
