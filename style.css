@@ -456,7 +456,7 @@ a img:hover{
 
 
 @media screen and (min-width:1126px){
-  .box{
+  .information_box{
     width: 40%;
   }
 }
