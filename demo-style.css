@@ -213,7 +213,7 @@ form{
   }
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1200px){
   .av-btn{
     height: 30vw;
     padding-top: 5vw;
@@ -222,7 +222,7 @@ form{
 }
 
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1100px){
 
 /*grid*/
   .grid-container{
@@ -257,6 +257,8 @@ form{
     width: 90%;
     height: auto;
     margin: 2.6%;
+    padding-left: 4vw;
+    padding-right: 4vw;
     padding-top: 7vw;
     padding-bottom: 7vw;
     font-size: 3em;
