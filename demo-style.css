@@ -38,8 +38,8 @@ body{
     width: 20vh;
   }
 
-  .topnav li a {
-    font-size: 1.5em;
+  .topnav li {
+    font-size: 2em;
   }
 }
 
