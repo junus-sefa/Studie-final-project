@@ -65,10 +65,9 @@ body{
   color: black;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 3.5vw;
+  padding-bottom: 3.5vw;
   margin: 1vw;
-  line-height: 1.5vw;
   background-color: #c6f5c7;
   border-radius: 4px;
   font-weight: bold;
@@ -76,7 +75,7 @@ body{
   text-align: left;
   border: 0;
   width: 94%;
-  height: 8vw;
+  height: 10vw;
 }
 
 .av-btn:hover{
@@ -203,7 +202,24 @@ form{
   color: #1f1f1f;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1400px){
+  .av-btn{
+    height: 20vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .av-btn{
+    height: 30vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+}
+
+
+@media only screen and (max-width: 800px){
 
 /*grid*/
   .grid-container{
