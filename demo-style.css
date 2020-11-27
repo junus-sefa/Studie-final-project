@@ -28,6 +28,7 @@ body{
 }
 
 .topnav li a:hover{
+  color: darkblue;
   text-decoration: underline;
 }
 
