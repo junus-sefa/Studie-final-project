@@ -427,7 +427,7 @@ a img:hover{
   justify-content: space-around;
 }
 
-.box{
+.information_box{
   box-sizing: border-box;
   margin: 30px;
   width: 350px;
