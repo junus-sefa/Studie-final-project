@@ -37,6 +37,10 @@ body{
   .logo-container{
     width: 20vh;
   }
+
+  .topnav li a {
+    font-size: 1.5em;
+  }
 }
 
 
