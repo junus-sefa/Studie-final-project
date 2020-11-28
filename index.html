@@ -6,6 +6,17 @@
     <title>Form Din Bydel.</title>
     <link rel="icon" href="img/favicon.jpg" type="image/jpg" sizes="16x16">
     <link rel="stylesheet" href="style.css">
+
+        <!-- Script for hamburger menu -->
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+    
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
   </head>
 
   <body>
@@ -41,18 +52,6 @@
 
     </section>
 
-
-    <!-- Script for hamburger menu -->
-    <script>
-      function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-      }
-
-      function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-      }
-    </script>
-
     <!-- Banner / Header bilde -->
     <section id="hjem" class="banner">
       <img src="img/banner.jpg" alt="Header bilde">
@@ -61,21 +60,25 @@
 
     <!-- Hva er problemet? -->
     <section id="problem" class="problem-container">
-      <div class="prob-header">
-        <p>
-          Det bor 200 000 i en bydel, men kun <strong class="big">20</strong> er med på å avgjøre hvilke valg
-          som tas...<br>
-          ...Opp mot <strong class="big">60%</strong> er ikke tilfredsstilt med valgene
-          som tas
-        </p>
+      <div class="prob-info">
+        <div class="prob-header">
+          <p>
+            Det bor 200 000 i en bydel, men kun <strong class="big">20</strong> er med på å avgjøre hvilke valg
+            som tas...<br>
+            ...Opp mot <strong class="big">60%</strong> er ikke tilfredsstilt med valgene
+            som tas
+          </p>
+        </div>
+        <div class="prob-txt">
+          <p>
+            Problemet er at det som blir bestemt innad i bydelene våre <em>ikke</em> er demokratisk nok. Det
+            er et overraskende antall folk som ikke liker de nye <strong class="green-txt">sentrene</strong>, nye <strong class="green-txt">parkene</strong> eller
+            <strong class="green-txt">fritidstilbudene</strong> som er i nærmiljøet. Dette kan folk best, vær med å bestem!
+          </p>
+        </div>
       </div>
-      <div class="prob-txt">
-        <p>
-          Problemet er at det som blir bestemt innad i bydelene våre ikke er demokratisk nok. Det
-          er et overraskende antall folk som ikke liker de nye sentrene, nye parkene eller
-          fritidstilbudene som er i nærmiljøet. Vi mener at slike ting er det folk flest som kan
-          best, ikke de vilt tilfeldige personene som sitter inne i et byråd hele dagen.
-        </p>
+      <div class="prob-bilde">
+        <img src="img/oslo.jpg" alt="Bilde av Slottet i Oslo">
       </div>
     </section>
 

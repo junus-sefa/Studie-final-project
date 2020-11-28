@@ -85,7 +85,10 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 
 
 .big{
-  font-size: 1.9em
+  font-size: 1.5em
+}
+.green-txt{
+  /*color: #c7f6c9;*/
 }
 
 .logonav{
@@ -130,25 +133,37 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   width: 100%;
 }
 .problem-container{
-  padding: 5vh;
+  padding: 2vh 2vw;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.prob-info{
+  flex: 1;
+  min-width: 400px;
+  padding-right: 2vw;
 }
 .prob-header{
   margin: auto;
-  text-align: center;
-  width: 75%;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 .prob-txt{
   margin: auto;
-  width: 75%;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
-@media only screen and (max-width: 800px){
-  
+.prob-bilde{
+  min-width: 50%;
+  max-width: 700px;
+  flex: 1;
+}
+.prob-bilde img{
+  width: 100%;
 }
 @media only screen and (max-width: 1000px){
   .big{
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   .logo-container{
     width: 20vh;
@@ -158,16 +173,19 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   }
   .prob-header{
     font-size: 1.5em;
+    text-align: center;
     width: 90%;
   }
   .prob-txt{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
     width: 100%;
   }
   .banner img{
     width: 100%;
   }
+}
+
 
   /* Hamburger Menu */
 
