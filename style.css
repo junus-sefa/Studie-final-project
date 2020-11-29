@@ -183,8 +183,6 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   .banner img{
     width: 100%;
   }
-}
-
 
   /* Hamburger Menu */
 
@@ -193,7 +191,6 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   }
   #hamburger{
     display: flex;
-    cursor: pointer;
   }
   #hamburger img{
     width: 50px;
