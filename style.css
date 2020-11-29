@@ -198,11 +198,6 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     width: 50px;
     cursor: pointer;
   }
-  #hamburger:hover{
-    background-color: white;
-
-    transition: 0.5s;
-  }
   .hamburger-icon{
     text-decoration: underline;
   }
