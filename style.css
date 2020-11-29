@@ -195,6 +195,12 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   #hamburger img{
     width: 50px;
   }
+  #hamburger:hover{
+    background-color: white;
+  }
+  .hamburger-icon{
+    text-decoration: underline;
+  }
   .logonav{
     width: 100%;
     position: fixed;
