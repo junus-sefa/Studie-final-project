@@ -141,8 +141,9 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 }
 .prob-info{
   flex: 1;
-  min-width: 400px;
   padding-right: 2vw;
+  min-width: 400px;
+  width: 100%;
 }
 .prob-header{
   margin: auto;
@@ -153,14 +154,14 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   font-size: 1.5em;
 }
 .prob-bilde{
-  min-width: 50%;
-  max-width: 700px;
   flex: 1;
+  min-width: 50%;
+  width: 100%;
 }
 .prob-bilde img{
   width: 100%;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1100px){
   .big{
     font-size: 1.5em;
   }
