@@ -142,7 +142,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .prob-info{
   flex: 1;
   padding-right: 2vw;
-  min-width: 400px;
+  min-width: 340px;
   width: 100%;
 }
 .prob-header{
