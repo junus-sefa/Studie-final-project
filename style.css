@@ -111,7 +111,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   font-size: 1.5em;
 }
 .topnav li a:hover{
-  color: #000;
+  color: darkblue;
   text-decoration: underline;
 }
 .logo-container{
