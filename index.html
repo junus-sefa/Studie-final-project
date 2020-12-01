@@ -6,6 +6,18 @@
     <title>Form Din Bydel.</title>
     <link rel="icon" href="img/favicon.jpg" type="image/jpg" sizes="16x16">
     <link rel="stylesheet" href="style.css">
+
+        <!-- Script for hamburger menu -->
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+
+    </script>
   </head>
 
   <body>
@@ -81,7 +93,7 @@
       <p class="long_text">
         Vi i FormDinBydel ønsket å lage et verktøy hvor du kan være med på å bestemme hvilke avgjørelser som skal tas i din
         bydel. Derfor lagde vi en app, hvor alle med en smarttelefon som støtter App store eller Google Play Store kan laste denne ned.
-        Du logger inn med din ID ved bruk av MinID eller kodebrikke fra banken din. Deretter får du en liste over alle 
+        Du logger inn med din ID ved bruk av MinID eller kodebrikke fra banken din. Deretter får du en liste over alle
         tilgjengelig sakene for din bydel. Du velger deretter den saken du ønsker å gi en stemme til, og velger deretter en av alternativene.
         VIPS, så har du vært med på å Forme Din Bydel.
       </p>
@@ -134,14 +146,17 @@
                  <p class="box_text">Målet vårt er å få så mange som mulig til å stemme. Derfor har vi gjort appen så brukervennlig som mulig slik at det brukes av alle.</p>
               </div>
               <div class="information_box">
-                  <img src="img/rapport.png" alt="Rapport" class="bilder">
+                  <img src="img/rapport.png" alt="Voting rapport" class="bilder">
                   <!--Rapport picture is designed by me in Adobe XD-->
                   <strong class="box_title"><h1>Rapport</h1></strong>
                   <p class="box_text">En direkte stemmeprogresjon vises rett etter stemningen til brukeren settes, og resultatene så snart stemmeperioden tar slutt.</p>
               </div>
              <div class="information_box">
+               <img src="img/data.png" alt="Data Security and Privacy" class="bilder">
+               <!--Rapport picture from https://www.iconfinder.com/icons/392512/data_document_documents_file_folder_icon-->
                <img src="img/data.png" alt="Datasikkerhet og Personvern" class="bilder">
                <!--Data picture from https://www.iconfinder.com/icons/392512/data_document_documents_file_folder_icon-->
+
                 <strong class="box_title"><h1>Datasikkerhet og Personvern</h1></strong>
                 <p class="box_text">Beskyttelse av data og personvern til våre brukere er vår høyeste prioritet, og derfor sørger vi at de lagres trygt i sikre datasentre.</p>
               </div>
@@ -170,12 +185,12 @@
 
     <!-- Kontakt oss -->
     <!-- Footer -->
-      
+
       <!-- Image from: https://www.google.com/search?q=contact+icon+mail&tbm=isch&ved=2ahUKEwiaqpOYmY
            ztAhVMtSoKHWDKBKwQ2-cCegQIABAA&oq=contact+icon+mail&gs_lcp=CgNpbWcQAzIGCAAQCBAeMgYIABAIEB4
            yBggAEAgQHjoCCAA6BAgAEENQiUFY00Zg1EhoAHAAeACAAaQBiAHDBJIBAzIuM5gBAKABAaoBC2d3cy13aXotaW1nw
            AEB&sclient=img&ei=RiG1X5rvOczqqgHglJPgCg&bih=722&biw=1536#imgrc=u3qeg8WOx5sm7M  -->
-      
+
       <div id="footer">
           <h2 id="footer_headline"><b>Kontakt Oss</b></h2>
           <div id="row_footer">
@@ -186,12 +201,18 @@
               <p id="mail_text"><strong>Email:</strong> <a href="mailto:kontakt@formdinbydel.no">kontakt@formdinbydel.no</a></p>
           </div>
                 <div id="column_footer_3">
+    <!-- Social Media icons from: https://www.google.com/search?q=black%20facebook%20logo&tbm=isch&ved=
+    2ahUKEwiC3peh0oztAhWMvyoKHXuRDzAQ2-cCegQIABAA&oq=black%20faceb&gs_lcp=CgNpbWcQARgAMgIIADICCAAyAggAMg
+    IIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECCMQJzoECAAQQzoFCAAQsQM6BwgAELEDEENQiBhYuyhg_DloAHAAeACAAckBiA
+    H7DZIBBTAuOS4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Hl21X4LXK4z_qgH7or6AAw&bih=722&biw=1536
+    &fbclid=IwAR07fDkKf_e0ZJ1rMYrvRNYQqwC4vBhbrvLBv_nMSTPEDJtmeIg50OfQuWY#imgrc=QPwDeXjndFZONM -->
+
     <!-- Social Media icons from: https://www.google.com/search?q=black%20facebook%20logo&tbm=isch&ved=2ahUK
          EwiC3peh0oztAhWMvyoKHXuRDzAQ2-cCegQIABAA&oq=black%20faceb&gs_lcp=CgNpbWcQARgAMgIIADICCAAyAggAMgIIAD
          ICCAAyAggAMgIIADICCAAyAggAMgIIADoECCMQJzoECAAQQzoFCAAQsQM6BwgAELEDEENQiBhYuyhg_DloAHAAeACAAckBiAH7D
          ZIBBTAuOS4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Hl21X4LXK4z_qgH7or6AAw&bih=722&biw=1536&f
          bclid=IwAR07fDkKf_e0ZJ1rMYrvRNYQqwC4vBhbrvLBv_nMSTPEDJtmeIg50OfQuWY#imgrc=CpT3LRogMqTUPM -->
-                    
+
                     <a href="https://www.facebook.com/" target="_blank">
                         <img src="img/facebook.png" height="72px" id="facebook" alt="facebook_icon">
                     </a>
@@ -210,10 +231,10 @@
           function openNav() {
             document.getElementById("myNav").style.width = "100%";
           }
-        
+
           function closeNav() {
             document.getElementById("myNav").style.width = "0%";
           }
-    
+
         </script>
 </html>
