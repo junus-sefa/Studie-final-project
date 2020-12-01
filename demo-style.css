@@ -48,7 +48,7 @@ body{
   }
 
   .topnav li {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -280,9 +280,6 @@ form{
 
 }
 
-.topnav a{
-  font-size: 1em;
-}
 
 img{
   width: 90%;
