@@ -239,17 +239,18 @@ form{
   }
 
   .item a{
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .av-btn{
+
     height: auto;
     padding: 10vw;
     line-height: revert;
   }
 
   .avstemning h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
 
@@ -280,8 +281,12 @@ form{
 
 }
 
+.logonav a{
+  font-size: 1.5em;
+}
+
 img{
-  width: 100%;
+  width: 90%;
 }
 
 /*Athanasios*/
