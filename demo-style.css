@@ -254,8 +254,12 @@ form{
 
 
 /*-----form-----*/
+  .form{
+    width: 90%;
+  }
+
   .form label {
-    width: 85%;
+    width: 90%;
     height: auto;
     margin: 2.6%;
     padding-left: 4vw;
