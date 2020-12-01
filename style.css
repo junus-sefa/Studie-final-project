@@ -1,9 +1,10 @@
-/* Importerer fonts fra Google */
+/* Importerer font fra Google */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500;900&display=swap');
 
 
 
 /* Junus Sefa CSS */
+/* Html, Body kode */
 html,body{
   width:100%;
   height: auto;
@@ -13,6 +14,7 @@ html,body{
   color:#303133;
 }
 
+/* Style for generelle elementer */
 a{text-decoration: none;color:#303133;transition: .15s;}
 a:hover{
   text-decoration: none;}
@@ -21,11 +23,13 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .bold{font-weight: bold;}
 
 
+/* Endre CSS ved maks-bredde 1100px */
 @media screen and (max-width: 1100px){
   .galleri .bilde{
     flex:0 0 50%!important;
   }
 }
+/* Endre CSS ved maks-bredde 800px */
 @media screen and (max-width: 800px) {
   h1{
     font-size: 1.5em;
@@ -49,6 +53,8 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
     max-width: 100%!important;
   }
 }
+
+/* Endre CSS ved maks-bredde 1000px */
 @media screen and (min-width: 1000px) {
   .galleri .bilde img:hover{
     transform: scale(1.4);
@@ -56,6 +62,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   }
 }
 
+/* Andre stiler for ulike elementer */
 .boks{
   padding: 100px 150px;
   text-align: center;
@@ -66,19 +73,23 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .galleri .bilde{
   flex: 0 0 25%;
   padding-top:50px;
 }
+
 .galleri .bilde p{
   letter-spacing: .7px;
   line-height: 1.8;
   padding: 0 15px;
 }
+
 .galleri .bilde img{
   width: 100%;
   transition: .15s;
 }
+
 .long_text{
   line-height: 2;
 }
