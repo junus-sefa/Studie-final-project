@@ -48,7 +48,7 @@ body{
   }
 
   .topnav li {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 
@@ -58,9 +58,6 @@ body{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-}
-.item {
-
 }
 
 .av-btn{
@@ -255,7 +252,7 @@ form{
 
 /*-----form-----*/
   .form{
-    width: 90%;
+    width: 80%;
   }
 
   .form label {
