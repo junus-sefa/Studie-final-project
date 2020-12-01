@@ -79,7 +79,9 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   width: 100%;
   transition: .15s;
 }
-
+.long_text{
+  line-height: 2;
+}
 
 /* Sigurd Skyrud CSS */
 
@@ -109,7 +111,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   font-size: 1.5em;
 }
 .topnav li a:hover{
-  color: darkblue;
+  color: #000;
   text-decoration: underline;
 }
 .logo-container{
