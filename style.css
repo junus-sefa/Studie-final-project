@@ -15,7 +15,7 @@ html,body{
 
 a{text-decoration: none;color:#303133;transition: .15s;}
 a:hover{
-  opacity: .5; text-decoration: none;}
+  text-decoration: none;}
 h1{font-size: 3em;}
 h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .bold{font-weight: bold;}
@@ -78,6 +78,9 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .galleri .bilde img{
   width: 100%;
   transition: .15s;
+}
+.long_text{
+  line-height: 2;
 }
 
 
@@ -312,6 +315,9 @@ a img:hover{
     font-size: 22px;
     margin-left: 20px;
 }
+p a:hover{
+    color: darkblue;
+}
 #row_footer{
     display: flex;
 }
@@ -340,6 +346,9 @@ a img:hover{
     position: relative;
     top: 5px;
     font-size: 22px;
+}
+h2 a:hover{
+    color: darkblue;
 }
 
 @media screen and (max-width: 1450px) {
