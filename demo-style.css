@@ -28,7 +28,7 @@ body{
 }
 
 .topnav li a:hover{
-  color: darkblue;
+  color: #000;
   opacity: 0.5;
   transition: 0.15s;
   text-decoration: underline;
