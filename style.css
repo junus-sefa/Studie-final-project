@@ -83,6 +83,7 @@ h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
   line-height: 2;
 }
 
+
 /* Sigurd Skyrud CSS */
 
 
@@ -345,6 +346,9 @@ p a:hover{
     position: relative;
     top: 5px;
     font-size: 22px;
+}
+h2 a:hover{
+    color: darkblue;
 }
 
 @media screen and (max-width: 1450px) {
