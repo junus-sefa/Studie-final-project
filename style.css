@@ -15,7 +15,7 @@ html,body{
 
 a{text-decoration: none;color:#303133;transition: .15s;}
 a:hover{
-  opacity: .5; text-decoration: none;}
+  text-decoration: none;}
 h1{font-size: 3em;}
 h2{font-size: 1.9em;font-weight: 500;font-family: 'Montserrat', sans-serif;}
 .bold{font-weight: bold;}
@@ -313,6 +313,9 @@ a img:hover{
 #mail_text{
     font-size: 22px;
     margin-left: 20px;
+}
+p a:hover{
+    color: darkblue;
 }
 #row_footer{
     display: flex;
